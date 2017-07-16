@@ -3,6 +3,12 @@ title: ArtboardChanged
 summary: work in progress
 ---
 
-Work In Progress
+{{page.summary}}
 
-Documentation for the ArtboardChanged action will appear here.
+## Action Context
+
+The action context for this action contains three keys:
+
+- `document`: the `Document` that the change occurred in.
+- `newArtboard`: the newly selected `Artboard`
+- `oldArtboard`: the previously selected `Artboard`
